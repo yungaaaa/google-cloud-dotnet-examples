@@ -55,7 +55,6 @@ namespace Vertex_Ai
 
             foreach (Value prediction in predictResponse.Predictions)
             {
-
                 ClassificationPredictionResult result = ValueConverter.ToMessage<ClassificationPredictionResult>(prediction);
 
                 int counter = 0;
