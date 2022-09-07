@@ -30,7 +30,7 @@ namespace Vertex_Ai
         {
             PredictionServiceClient predictionServiceClient = new PredictionServiceClientBuilder()
             {
-                Endpoint = "https://us-central1-aiplatform.googleapis.com",
+                Endpoint = $"https://{location}-aiplatform.googleapis.com",
                 GoogleCredential = GetCredential()
             }.Build();
             EndpointName endpoint = EndpointName.FromProjectLocationEndpoint(project, location, endpointId);
