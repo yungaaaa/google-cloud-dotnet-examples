@@ -1,6 +1,11 @@
-# google-cloud-dotnet-examples
-## Vertex-Ai
-#### Predict for image classification
-Gets prediction for image classification using the predict method.
 
-[Vertex AI Documentation](https://cloud.google.com/vertex-ai/docs/samples/aiplatform-predict-image-classification-sample)
+# google-cloud-dotnet-examples
+[.NET Cloud Client Libraries](https://cloud.google.com/dotnet/docs/reference)
+## Authentication
+See the [Authentication](https://github.com/googleapis/google-cloud-java#authentication) section in the official base directory's README.
+
+## Samples
+### Vertex
+| Sample | Source code | Reference |
+| ------ | ------ | ------ |
+| Predict Image Classification Sample | [source code	](https://github.com/yungaaaa/google-cloud-dotnet-examples/blob/main/Vertex-Ai/PredictImageClassification.cs) | [Java source code](https://github.com/googleapis/java-aiplatform/blob/main/samples/snippets/src/main/java/aiplatform/PredictImageClassificationSample.java)
