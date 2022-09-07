@@ -16,7 +16,7 @@ namespace Vertex_Ai
         // ENDPOINT_ID
         string endpointId = "ENDPOINT_ID";
         // LOCATION
-        string location = "LOCATION"; // i.e. us-central1
+        string location = "LOCATION"; // e.g. us-central1
                                       
         string credentialJson = @"JSON_FILE_PATH";
 
